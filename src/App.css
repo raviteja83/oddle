@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  font-size:14px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.input-container {
+  width: 100%;
+  height: 56px;
+  margin: 5px;
+  padding-top: 10px;
+}
+
+.input-container input{
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  color: #333;
+}
+
+.input-container .btn{
+  height: 30px;
+}
+
+.info {
+  position: relative;
+  width: calc(100% - 40px);
+  padding: 5px 10px;
+}
+
+.user, .repo {
+  width: 100%;
+  display: inline-flex;
+  margin: 10px 5px;
+  text-align: start;
+}
+
+.user .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.user .title {
+  font-size: 20px;
+}
+
+.repo {
+  padding: 10px;
+  border-bottom: 1px #ddd solid;
+}
+.repo .avatar {
+  font-size: 30px;
+}
+
+.repo-detail {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 5px;
+}
+
+.user-detail {
+  border-bottom: 2px #ddd solid;
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+.user-detail .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.user-detail .title {
+  font-size: 20px;
+  padding: 5px;
+}
+
+
+.repo-detail > span {
+  margin-right : 10px;
+  padding-left: 5px;
+}
+
+.error,.loader {
+  margin-top: 10%;
+}
+
+
+
+
+
