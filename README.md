@@ -1,8 +1,10 @@
 To run the project locally
 
 clone the project
-assuming npm/yarn is installed,
-run 
+
+cd to oddle
+
+run one of the following(assuming npm/yarn is installed),
 
 **using yarn:**
 `yarn && yarn run start`
